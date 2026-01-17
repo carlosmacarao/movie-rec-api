@@ -4,9 +4,9 @@ Este projeto é um sistema de recomendação de filmes "End-to-End" que utiliza 
 ## Tecnologias Utilizadas
 
 
-**Backend** - FastAPI 
-**Frontend** - Streamlit - Para Interface de usuário
-**Data Science** - Pandas / Scikit-learn - Manipulação de dados e cálculo de similaridade.
+**Backend** - FastAPI <br>
+**Frontend** - Streamlit - Para Interface de usuário <br>
+**Data Science** - Pandas / Scikit-learn - Manipulação de dados e cálculo de similaridade. <br>
 **Algoritmo** - Cosine Similarity - Cálculo de proximidade entre vetores de filmes. 
 
 ## Como funciona?
