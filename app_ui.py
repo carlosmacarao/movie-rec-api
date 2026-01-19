@@ -9,13 +9,11 @@ st.markdown("---")
 
 st.write("Introduza o nome de um filme que gostou e eu direi o que assistir a seguir!")
 
-# Campo de entrada
 movie_input = st.text_input("Nome do Filme (Ex: Central do Brasil (1998))", "")
 
 if st.button("Obter Recomendações"):
     if movie_input:
         try:
-            # Faz a chamada para a tua API FastAPI
             response = requests.get(f"http://127.0.0.1:8000/recommend/{movie_input}")
             
             if response.status_code == 200:

@@ -3,8 +3,7 @@ from recommender import MovieRecommender
 
 app = FastAPI(title="Movie Rec API", description="API de Recomendação de Filmes do Carlos")
 
-# Inicializamos o motor de recomendação
-recommender = MovieRecommender('movies.csv')
+recommender = MovieRecommender('movies.csv') # Inicializamos o motor de recomendação
 
 @app.get("/")
 def read_root():
